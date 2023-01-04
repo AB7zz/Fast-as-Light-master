@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "650125443917",
+    "firebase_url": "https://fast-as-light-default-rtdb.firebaseio.com",
+    "project_id": "fast-as-light",
+    "storage_bucket": "fast-as-light.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650125443917:android:34fc3801999cf36adbed04",
+        "android_client_info": {
+          "package_name": "com.example.fastaslight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650125443917-85t1lqe29irkrcq8fndf8uh23fklua7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fastaslight",
+            "certificate_hash": "ecf65209b1c452587eebb6bb6a4f85bf315f169c"
+          }
+        },
+        {
+          "client_id": "650125443917-qp1jm6bq6qj105ejrukjd36d747mjd4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMh5-8iyIDwynugmhtS4Nc99RxB34kST4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650125443917-qp1jm6bq6qj105ejrukjd36d747mjd4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

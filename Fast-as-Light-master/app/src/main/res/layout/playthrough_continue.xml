@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/continue_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/evening"
+    tools:context=".Continue">
+
+    <TextView
+        android:id="@+id/continue_currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="180dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_game" />
+
+    <TextView
+        android:id="@+id/continue_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="140dp"
+        android:text="00:00:00"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="134dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="159dp"
+        android:backgroundTint="#CDE6FA"
+        android:text="Continue"
+        android:textColor="#BF7C18"
+        android:textFontWeight="30"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/close_icon_continue"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="57dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/exit_profile_page_and_return_to_home_menu"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/close_icon_profile" />
+
+    <Button
+        android:id="@+id/new_game"
+        android:layout_width="134dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="159dp"
+        android:backgroundTint="#CDE6FA"
+        android:text="NEW GAME"
+        android:textColor="#BF7C18"
+        android:textFontWeight="30"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/high_score_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="112dp"
+        android:fontFamily="cursive"
+        android:text="High Score!!!"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

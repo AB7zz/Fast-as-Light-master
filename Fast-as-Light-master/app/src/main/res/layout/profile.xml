@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_bckground"
+    tools:context=".Profile">
+
+    <TextView
+        android:id="@+id/profilename_textView"
+        android:layout_width="409dp"
+        android:layout_height="80dp"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textColor="#88020202"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <TextView
+        android:id="@+id/profileID_textview"
+        android:layout_width="414dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/profile_id"
+        android:textAlignment="center"
+        android:textColor="#88020202"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilename_textView" />
+
+    <TextView
+        android:id="@+id/profilemail_textView"
+        android:layout_width="407dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/email"
+        android:textAlignment="center"
+        android:textColor="#88020202"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileID_textview" />
+
+    <TextView
+        android:id="@+id/rank_textview"
+        android:layout_width="351dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/rank_txt"
+        android:textAlignment="viewStart"
+        android:textColor="#88020202"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:drawableLeftCompat="@drawable/rank_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilemail_textView"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/highscore_textview"
+        android:layout_width="359dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="96dp"
+        android:text="@string/high_score_txt"
+        android:textAlignment="viewStart"
+        android:textColor="#88020202"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:drawableLeftCompat="@drawable/high_score_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rank_textview"
+        app:layout_constraintVertical_bias="0.756"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/close_icon_profile"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/exit_profile_page_and_return_to_home_menu"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="@drawable/close_icon_profile" />
+
+    <ImageButton
+        android:id="@+id/change_character_bttn"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="124dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/open_change_character_page"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207"
+        app:srcCompat="@drawable/change_character_icon" />
+
+    <ImageView
+        android:id="@+id/avatar_img"
+        android:layout_width="200dp"
+        android:layout_height="182dp"
+        android:contentDescription="@string/todo4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

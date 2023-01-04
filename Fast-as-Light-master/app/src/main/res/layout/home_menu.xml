@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_menu_bckground"
+    tools:context=".HomeMenu">
+
+    <ImageButton
+        android:id="@+id/profile_button"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/view_profile"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_button" />
+
+    <ImageView
+        android:id="@+id/FAL_title_logo"
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:contentDescription="@string/game_title_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        app:srcCompat="@drawable/fal_title_logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/start_button"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/start_a_playthrough"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FAL_title_logo"
+        app:srcCompat="@drawable/start_button" />
+
+    <ImageButton
+        android:id="@+id/leaderboard_button"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/open_online_leaderboard"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_button"
+        app:srcCompat="@drawable/leaderboard_button" />
+
+    <ImageButton
+        android:id="@+id/settings_button"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/settings"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leaderboard_button"
+        app:srcCompat="@drawable/settings_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
