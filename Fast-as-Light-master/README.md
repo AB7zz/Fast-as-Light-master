@@ -1,9 +1,4 @@
-# Fast-as-Light
-Daniel Duy Phan, danielduy.phan@mavs.uta.edu, 682-812-4404
-Joseph Salas-Leon, jjs3197@mavs.uta.edu, 817-823-9258, 
-Mubtasim Ahmed Rakheen, mubtasimahmed.rakheen@mavs.uta.edu, 817-449-4705
-Abbas Zaidi, axz5675@mavs.uta.edu
-Asad Mirza, ahm7395@mavs.uta.edu
+
 
 Changes we made to our project design: 
 - Instead of possibly spawning clouds every three seconds, our team chose to spawn a maximum of 
